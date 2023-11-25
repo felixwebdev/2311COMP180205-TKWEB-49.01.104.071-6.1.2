@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="picture/icon/fav2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio src="/music/02. Main Titles.mp3" autoplay="autoplay" loop="loop"></audio>
+    <div class="container-fluid">
+        <video autoplay muted loop plays-inline class="back-video">
+            <source src="/picture/background/backround home.mp4" type="video/mp4">
+        </video>
+        <div id="header">
+            <div class="menu">
+                <ul class="nav">
+                    <li>
+                    <a href="#" style="border-bottom-left-radius:10px;">
+                        <i class="ti-home"></i>
+                         Home 
+                    </a>
+                    </li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="#">
+                            Account
+                            <i class="ti-angle-down"></i>
+                        </a>
+                        <ul class="sub-nav">
+                              <li><a href="signup.html">Sign Up</a></li>
+                              <li><a href="#" onclick="dev()">Sign In</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li style="margin-top: 10px; position: absolute; right: 20px;">
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" onclick="dev()">Search</button>
+                    </form>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+        <div id="content">
+        <div class="row">
+            <div class="col-2">
+               <img src="/picture/icon/Iconcreme-Halloween-Bat.512.png" alt="" width="200px" height="200px">
+              
+            </div>
+
+            <div class="col-8">
+                <p class="time">31 OCTOBER 2023 - HO CHI MINH CITY</p>
+                <p class="topic">HALLOWEEN PARTY</p>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur adipiscing elit,</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-3">
+                        <button type="button" class="get-ticket left"><a href="signup.html">Get Ticket</a></button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="get-ticket right"><a href="team.html">My Teams</a></button>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            
+            </div> 
+
+            <div class="col-2">
+                <div class="spider"></div>
+               <img src="/picture/icon/8544076.png" alt="" width="250px">
+               <div class="spider-silk">.</div>
+               <img id="spider" src="/picture/icon/spiderfinal.png" alt="" width="100px">
+            </div>
+        </div>
+        </div>       
+    </div>
+    
+    </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

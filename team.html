@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="picture/icon/fav2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/team.css">
+</head>
+
+<style>
+    body {
+        background: url('/picture/background/R\ \(1\).jpg') top right/ cover no-repeat;
+    }
+
+    #content h1 {
+        font-family: 'Gloria Hallelujah', cursive;
+        color: orange;
+        font-size: 60px;
+    }
+    
+    .member {
+        margin-top: 30px;
+        transition: all 0.3s;
+        position: relative;
+    }
+
+    .member .mumy {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .member .candle {
+        position: absolute;
+        top: 70%;
+        left: 68%;
+        z-index: +1;
+    }
+
+    .pumkin {
+       position: absolute;
+    }
+
+    .member:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <div id="header">
+            <div class="menu">
+                <ul class="nav">
+                    <li>
+                    <a href="index.html" style="border-bottom-left-radius:10px;">
+                        <i class="ti-home"></i>
+                         Home 
+                    </a>
+                    </li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="3">
+                            Account
+                            <i class="ti-angle-down"></i>
+                        </a>
+                        <ul class="sub-nav">
+                              <li><a href="signup.html">Sign Up</a></li>
+                              <li><a href="#" onclick="dev()">Sign In</a></li>
+                        </ul>
+                    </li>
+                    <li style="margin-top: 10px; position: absolute; right: 20px;">
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" onclick="dev()">Search</button>
+                    </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    <div id="content">
+        <h1>My Team</h1>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <div class="member">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/picture/photo/OIP.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">
+                            <b>
+                            Back-end Developer
+                            <br>
+                            Tran Quoc Khanh
+                        </b>
+                        </p>
+                        </div>
+                      </div>
+                    <img src="/picture/icon/Iconcreme-Halloween-Mummy.512.png" alt="" width="100px" class="mumy">
+                    
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="member">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/picture/photo/31068432-8549271-image-m-92_1595433639504.jpg" class="card-img-top" alt="..."> 
+                        <div class="card-body">
+                          <p class="card-text">
+                            <b>
+                                Front-end Developer
+                                <br>
+                                Tran Quoc Khanh
+                            </b>
+                          </p>
+                        </div>
+                      </div>
+                      <img src="/picture/icon/Iconcreme-Halloween-Twitter.512.png" alt="" width="100px" class="candle">
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    
+    </div>
+    <div id="footer" style="width: 100%; height: 50px; line-height: 50px; background-color: #333; bottom: 0; position: absolute; color: white;">
+        <center><p>Tran Quoc Khanh &copy; 2023</p></center>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
